@@ -22,7 +22,17 @@ $("table").on("click", function(){
 //   $("img").toggleClass("photo");
 //
 // }())
-$(event.target).children().eq(0).toggleClass("photo")
+if ($(event.target).children().eq(0).hasClass("photo")){
+console.log("I was removed");
+$(event.target).children().eq(0).removeClass("photo")
+console.log($(event.target).children().eq(0)
+);
+} else {
+  $(event.target).eq(0).addClass("photo")
+  console.log("I was added");
+  console.log($(event.target).eq(0))
+
+}
 
 
 
