@@ -21,10 +21,22 @@ td {
   height: 150px;
   background: #c867ce;
 }
-.photo {
+
+td img {
   width:152px;
   height: 152px;
+  display: block;
+}
+.photo {
   display: none;
+}
+
+
+
+
+
+.nasty {
+  display: block !important;
 }
 
 

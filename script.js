@@ -15,14 +15,24 @@ $(document).ready(function(){
 //
 //   }
 // $("photo").on("click",)
-$(".photo").on("click", function(){
-  $(event.target).hide()
+var show = true;
+
+$("table").on("click", function(){
+//   (function(e){
+//   $("img").toggleClass("photo");
+//
+// }())
+$(event.target).children().eq(0).toggleClass("photo")
+
+
+
+
   console.log("I was clicked on photo")
 })
 
-$(".square").on("click", function(){
+/*$(".square").on("click", function(){
   $(event.target).children().show()
   console.log("I was clicked on square")
-})
+})*/
 
 }); //close document.ready
