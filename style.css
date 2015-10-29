@@ -1,13 +1,22 @@
 body {
-  background-color: #5c93c5;
+  background-color: #fff;
+  background-image: url("./images/nikelogo3.jpg");
 }
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
-  font-weight:normal;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  letter-spacing: 3px;
+  color: #fff;
 }
-
+h2 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #fff;
+}
 table {
   margin-left: auto;
   margin-right: auto;
@@ -16,10 +25,17 @@ table {
 }
 
 td {
-  border: solid 1px black;
+  border: solid 1px #A9A9A9;
   width: 150px;
   height: 150px;
-  background: #c867ce;
+  background-color: rgba(128, 128, 128, 0.4);
+}
+.show {
+  display:inline;
+}
+
+.hide {
+  display: none;
 }
 
 td img {
@@ -42,11 +58,11 @@ td img {
 
 button {
   border-radius: 5px;
-  border: solid 1 px black;
-  background-color: #ccc;
-  font-family: sans-serif;
+  border: solid 1 px #fff;
+  background-color: rgba(128, 128, 128, 0.4);
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
   font-size: 20px;
-  font-weight: bold;
   position: relative;
 }
 button.hover {
