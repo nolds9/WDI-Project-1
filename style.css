@@ -1,8 +1,15 @@
+/* NHO: loved the styles and the gameboard! */
+
+
+/* NHO: Make sure to run your CSS through the validator to catch errors. http://www.css-validator.org/validator */
+
+
+/* NHO: CSS beautified with the atom package */
+
 body {
   background-color: #fff;
   background-image: url("./images/nikelogo3.jpg");
 }
-
 h1 {
   text-align: center;
   font-family: 'Oswald', sans-serif;
@@ -21,9 +28,7 @@ table {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0;
-
 }
-
 td {
   border: solid 1px #A9A9A9;
   width: 150px;
@@ -31,31 +36,22 @@ td {
   background-color: rgba(128, 128, 128, 0.4);
 }
 .show {
-  display:inline;
+  display: inline;
 }
-
 .hide {
   display: none;
 }
-
 td img {
-  width:152px;
+  width: 152px;
   height: 152px;
   display: block;
 }
 .photo {
   display: none;
 }
-
-
-
-
-
 .nasty {
   display: block !important;
 }
-
-
 button {
   border-radius: 5px;
   border: solid 1 px #fff;

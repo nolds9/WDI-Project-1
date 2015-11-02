@@ -1,50 +1,105 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-   <meta charset="UTF-8">
-   <title>Concentration Nike Edition</title>
-   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-   <script src="script.js"></script>
-   <link rel="stylesheet" href="style.css">
-   <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
- </head>
- <body>
-   <h1>CONCENTRATION - NIKE AIRMAX</h1>
-   <h2>Match the Nike Airmax<h2>
-   <table>
-     <tr id="board">
-       <td class="square"><img class="photo" src="./images/nike1.jpg"></td>
-       <td class="square"><img class="photo" src="./images/nike2.jpg"></td>
-       <td class="square"><img class="photo" src="./images/nike3.jpg"></td>
-       <td class="square"><img class="photo" src="./images/nike4.jpg"></td>
-       <td class="square"><img class="photo" src="./images/nike9.jpg"></td>
-       <td class="square"><img class="photo" src="./images/nike11.jpg"></td>
-     </tr>
-    <tr id="board">
-        <td class="square"><img class="photo" src="./images/nike5.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike6.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike7.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike8.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike10.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike12.jpg"></td>
-    </tr>
-    <tr id="board">
-        <td class="square"><img class="photo" src="./images/nike1.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike2.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike3.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike4.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike9.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike11.jpg"></td>
-    </tr>
-    <tr id="board">
-        <td class="square"><img class="photo" src="./images/nike5.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike6.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike7.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike8.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike10.jpg"></td>
-        <td class="square"><img class="photo" src="./images/nike12.jpg"></td>
-    </tr>
-   <button id="reset">Start/Reset Game</button>
+<!DOCTYPE html>
+<html lang="en">
 
- </body>
- </html>
+<head>
+  <meta charset="UTF-8">
+  <title>Concentration Nike Edition</title>
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <h1>CONCENTRATION - NIKE AIRMAX</h1>
+  <h2>Match the Nike Airmax</h2>
+  <!-- NHO: I ran your HTML run through atom's Beautify package to fix indentation, spacing, etc.  -->
+  <table>
+    <!-- NHO: Make sure you pass your html through a validator before submissions; see https://validator.w3.org/nu/#textarea -->
+    <!-- NHO: Remember that all id attributes must be unique, otherwise change it to a class -->
+    <tr class="board">
+      <td class="square">
+        <img class="photo" src="./images/nike1.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike2.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike3.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike4.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike9.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike11.jpg" alt="A Nike Air">
+      </td>
+    </tr>
+    <tr class="board">
+      <td class="square">
+        <img class="photo" src="./images/nike5.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike6.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike7.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike8.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike10.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike12.jpg" alt="A Nike Air">
+      </td>
+    </tr>
+    <tr class="board">
+      <td class="square">
+        <img class="photo" src="./images/nike1.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike2.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike3.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike4.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike9.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike11.jpg" alt="A Nike Air">
+      </td>
+    </tr>
+    <tr class="board">
+      <td class="square">
+        <img class="photo" src="./images/nike5.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike6.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike7.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike8.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike10.jpg" alt="A Nike Air">
+      </td>
+      <td class="square">
+        <img class="photo" src="./images/nike12.jpg" alt="A Nike Air">
+      </td>
+    </tr>
+  </table>
+  <button id="reset">Start/Reset Game</button>
+
+</body>
+
+</html>
