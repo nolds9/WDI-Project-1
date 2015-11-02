@@ -18,7 +18,7 @@
 
 **Meets Expectations**. Html is clearly structured, CSS is clear, and JS works, I recommend you check your code in a validator.  Make sure to clean up code, remove comments, fix indentation in the future. Moving forward, try to watch for duplication and areas where you can group functionality into functions.
 
-[inline code comments here](https://github.com/qadriyyah119/WDI-Project-1compare/master...nolds9:feedback_nho)
+[inline code comments here](https://github.com/qadriyyah119/WDI-Project-1/compare/master...nolds9:feedback)
 
 ## Problem Solving
 
